@@ -116,6 +116,8 @@ client.on('messageCreate', async message => {
 
     const { member, guild } = message
 
+    if (!guild) return // no guild most the time means its in dms
+
     // i dont suggest using message commands as message intent is going to be priveleged soon, however imma just use it for this
     const data = await db.get(`guild:${guild.id}`)
     if (!data) return
