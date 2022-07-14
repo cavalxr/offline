@@ -70,7 +70,7 @@ client.on('ready', async client => {
         name: 'disable',
         description: 'enable message deletion for a channel',
         type: 'CHAT_INPUT'
-    }], '996595202288529428'/** this is where you would put the guild id, if you wanted these commands just for a specific server */)
+    }]/** this is where you would put the guild id, if you wanted these commands just for a specific server */)
 })
 
 client.on('guildCreate', async guild => {
