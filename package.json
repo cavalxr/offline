@@ -1,0 +1,25 @@
+{
+  "name": "offline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cavalxr/offline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cavalxr/offline/issues"
+  },
+  "homepage": "https://github.com/cavalxr/offline#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.6.1",
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "quick.db": "^9.0.5"
+  }
+}
